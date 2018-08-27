@@ -1,31 +1,13 @@
-img {
-  border-radius: 50%;
-  width: 20%;
-}
 
-@media only screen and (max-width: 600px) {
-  .user-row {
-    display: flex;
-    flex-direction: row;
-    height: 80px;
-    padding-bottom: 20px;
-    margin: 0;
+
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
   }
 
-  .user-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 25px;
+  h1 {
+    font-family: 'SEGA LOGO FONT';
   }
 
-  .navbar-brand {
-    margin-right: 11rem;
-  }
-
-  .small-text {
-    color: #fff;
-    font-size: 14px;
-    margin-left: 6rem;
-  }
-}
